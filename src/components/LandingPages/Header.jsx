@@ -9,8 +9,8 @@ import { IoMdClose } from "react-icons/io";
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
-    <div className="fixed overflow-hidden top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary">
-      <div className="flex wrapper items-center gap-8 justify-between">
+    <div className="fixed  top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary">
+      <div className="flex wrapper items-center gap-8 justify-between overflow-hidden">
         <ReactScrollLink
           to="banner"
           className="cursor-pointer"
