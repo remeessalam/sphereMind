@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bannerImg from "../../assets/images/landingpages/banner-bg.webp";
+import bannerImg from "../../assets/images/landingpages/banner-bg.jpg";
 import { Link } from "react-router-dom";
 import robot from "../../assets/images/landingpages/ai-robot.png";
 import gsap from "gsap";
@@ -39,7 +39,10 @@ const Banner = () => {
           >
             Transforming Ideas into Impactful Digital Solutions{" "}
           </h1>
-          <p data-aos="fade-right" className="text-sm text-gray-500">
+          <p
+            data-aos="fade-right"
+            className="text-sm text-gray-500 sm:text-black"
+          >
             At SPHEREMIND, we transform innovative ideas into impactful digital
             solutions. Our expertise in AI and cutting-edge technologies helps
             businesses thrive in the digital age, driving growth, efficiency,
@@ -55,7 +58,7 @@ const Banner = () => {
             Get Started
           </Link>
         </div>
-        <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
+        {/* <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
           <img
             loading="lazy"
             id="robot"
@@ -69,7 +72,7 @@ const Banner = () => {
             height="400"
             class="h-[30vh] lg:h-[40vh] w-full object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

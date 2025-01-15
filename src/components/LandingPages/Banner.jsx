@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import bannerImg from "../../assets/images/landingpages/banner-bg.webp";
+import bannerImg from "../../assets/images/landingpages/banner-bg.jpg";
 import { Link } from "react-router-dom";
 import robot from "../../assets/images/landingpages/ai-robot.png";
 import gsap from "gsap";
@@ -53,7 +53,7 @@ const Banner = ({ page }) => {
             Get Started
           </Link>
         </div>
-        <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
+        {/* <div data-aos="fade-left" className="lg:pl-5 lg:pt-4 lg:pb-2 w-fit">
           <img
             loading="lazy"
             id="robot"
@@ -64,7 +64,7 @@ const Banner = ({ page }) => {
             height="400"
             class="h-[30vh] lg:h-[40vh] w-full object-contain"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
