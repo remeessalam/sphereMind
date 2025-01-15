@@ -10,8 +10,8 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary overflow-hidden">
-      <div className="flex wrapper items-center gap-8 justify-between">
+    <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary ">
+      <div className="flex wrapper items-center gap-8 justify-between overflow-hidden">
         <Link to="/" className="cursor-pointer ">
           <img
             loading="lazy"
