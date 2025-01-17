@@ -40,7 +40,7 @@ const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
         >
           <Hamburger
-            color="#000000"
+            color="#ffffff"
             size="26"
             toggled={isOpen}
             rounded
@@ -64,7 +64,7 @@ const Header = () => {
           />
           <button
             onClick={() => setIsOpen(false)}
-            className="text-primary text-[2.2rem]"
+            className="text-black text-[2.2rem]"
           >
             <IoMdClose />
           </button>
@@ -74,7 +74,7 @@ const Header = () => {
             <Link
               onClick={() => setIsOpen(false)}
               key={id}
-              className="text-2xl font-mediumduration-300 link"
+              className="text-2xl font-mediumduration-300 link text-black"
               to={link}
               spy={true}
               smooth={true}
