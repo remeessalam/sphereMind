@@ -46,12 +46,15 @@ const BlogDetails = () => {
                   By Admin
                 </div>
               </div>
-              <h4 data-aos="fade-up" className="heading mt-[1rem] pb-[1.5rem]">
+              <h4
+                data-aos="fade-up"
+                className="heading mt-[1rem] pb-[1.5rem] text-secondary"
+              >
                 {blog.heading}
               </h4>
               <div
                 data-aos="fade-up"
-                className="hyphen-auto leading-relaxed text-gray-800 border-t border-primary/30 pt-[2rem]"
+                className="hyphen-auto leading-relaxed text-gray-100 border-t border-primary/30 pt-[2rem]"
               >
                 {blog.introduction}
               </div>

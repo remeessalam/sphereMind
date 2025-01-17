@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const { pathname } = useLocation();
   return (
-    <div className="fixed top-0 z-50 w-full bg-white/50 backdrop-blur-sm text-primary ">
+    <div className="fixed top-0 z-50 w-full bg-black/50 backdrop-blur-sm text-primary ">
       <div className="flex wrapper items-center gap-8 justify-between overflow-hidden">
         <Link to="/" className="cursor-pointer ">
           <img
@@ -27,7 +27,7 @@ const Header = () => {
             <Link
               className={`${
                 pathname === item.link && "active-item"
-              } text-sm cursor-pointer text-gray-700 transition-all duration-300`}
+              } text-sm cursor-pointer text-gray-200 transition-all duration-300`}
               key={item.id}
               to={item.link}
             >

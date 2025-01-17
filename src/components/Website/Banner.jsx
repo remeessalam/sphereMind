@@ -25,6 +25,7 @@ const Banner = () => {
       className="min-h-screen w-full relative flex justify-center bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
+      <div className="absolute bg-black/20 top-0 left-0 w-full h-full"></div>
       <div className="wrapper pt-[10rem] pb-[5rem] flex flex-col-reverse lg:grid grid-cols-[60%_40%] items-center gap-5">
         <div className="flex flex-col gap-4 items-start justify-center">
           <p
@@ -41,7 +42,7 @@ const Banner = () => {
           </h1>
           <p
             data-aos="fade-right"
-            className="text-sm text-gray-500 sm:text-black"
+            className="text-sm text-gray-100 sm:text-white"
           >
             At SPHEREMIND, we transform innovative ideas into impactful digital
             solutions. Our expertise in AI and cutting-edge technologies helps

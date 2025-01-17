@@ -157,11 +157,11 @@ const Home = () => {
                     alt={`${item.title} industry solutions`}
                     className="w-full h-full object-cover absolute top-0 left-0 rounded group-hover:scale-110 transition-all duration-300"
                   />
-                  <div className="w-full h-full absolute top-0 left-0 bg-white/70 group-hover:bg-black/60 transition-all duration-300"></div>
+                  <div className="w-full h-full absolute top-0 left-0 bg-secondary/70 group-hover:bg-black/60 transition-all duration-300"></div>
                   <h3 className="text-center text-[1.3rem] font-medium relative z-10 group-hover:text-white transition-all duration-300">
                     {item.title}
                   </h3>
-                  <p className="text-gray-800 text-md mt-2 relative z-10 group-hover:text-white transition-all duration-300">
+                  <p className="text-gray-900 text-md mt-2 relative z-10 group-hover:text-white transition-all duration-300">
                     {item.desc}
                   </p>
                 </div>
@@ -191,7 +191,7 @@ const Home = () => {
                     alt="SPHEREMIND company overview"
                     className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                   />
-                  <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-primary/70 sm:bg-primary p-5 rounded-lg">
+                  <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-secondary/70 sm:bg-secondary p-5 rounded-lg">
                     <h3 className="text-5xl font-bold text-white">2+</h3>
                     <p className="font-medium mt-3 text-white">
                       Years of Experience

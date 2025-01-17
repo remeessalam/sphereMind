@@ -21,14 +21,16 @@ const ServicePageLayout = () => {
               data-aos="fade-up"
               className="bg-[#ECF8FF] p-4 lg:p-6 rounded-lg"
             >
-              <h4 className="text-2xl font-medium">All Services</h4>
+              <h4 className="text-2xl font-medium text-secondary">
+                All Services
+              </h4>
               <div className="mt-5 flex flex-wrap md:flex-col gap-3">
                 {ourServices.map((item) => (
                   <Link
                     className={`${
                       item.link === pathname
                         ? "bg-secondary text-white"
-                        : "bg-white text-primary"
+                        : "bg-white text-black"
                     } flex items-center gap-2 justify-between p-3 rounded-md`}
                     to={item.link}
                   >
@@ -41,7 +43,7 @@ const ServicePageLayout = () => {
               data-aos="fade-up"
               className="text-center bg-[#010C2A] flex flex-col items-center gap-5 text-white px-4 lg:px-6 py-10 rounded-lg"
             >
-              <div className="w-[3.5rem] h-[3.5rem] bg-white text-primary rounded-full p-3 flex justify-center items-center">
+              <div className="w-[3.5rem] h-[3.5rem] bg-white text-secondary rounded-full p-3 flex justify-center items-center">
                 <FaPhoneAlt className="text-3xl" />
               </div>
               <h4 className="text-2xl font-medium">Need Help? Call Here</h4>
@@ -61,8 +63,8 @@ const ServicePageLayout = () => {
             data-aos="fade-up"
             className="text-center bg-[#010C2A] md:hidden flex flex-col items-center gap-5 text-white px-4 lg:px-6 py-10 rounded-lg"
           >
-            <div className="w-[3.5rem] h-[3.5rem] bg-white text-primary rounded-full p-3 flex justify-center items-center">
-              <FaPhoneAlt className="text-3xl" />
+            <div className="w-[3.5rem] h-[3.5rem] bg-white text-secondary rounded-full p-3 flex justify-center items-center">
+              <FaPhoneAlt className="text-3xl !text-secondary" />
             </div>
             <h4 className="text-2xl font-medium">Need Help? Call Here</h4>
             <p className="font-semibold">{companyDetails.phone}</p>

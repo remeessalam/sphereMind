@@ -11,7 +11,7 @@
 }
 
 :root {
-  background: #ffffff;
+  background: #070e1a;
   @apply text-primary;
 }
 
@@ -31,7 +31,7 @@ html {
     @apply max-w-7xl mx-auto px-4 sm:px-6;
   }
   .primary-btn {
-    @apply bg-gradient-to-r text-center rounded-full px-5 text-sm font-medium py-3 from-primary to-[#515151] text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
+    @apply bg-gradient-to-r text-center rounded-full px-5 text-sm font-medium py-3 from-secondary to-[#6ecfff] hover:text-secondary text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
   }
   .link {
     @apply cursor-pointer;
@@ -66,11 +66,11 @@ p {
   width: 100vw;
   height: 100vh;
   overflow-x: hidden;
-  background-image: url("../public/background-1.jpg");
+  /* background-image: url("../public/background-1.jpg");
   background-size: cover;
   background-position: right;
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.7; */
   pointer-events: none;
   animation: moveBackground 100s linear infinite;
 }

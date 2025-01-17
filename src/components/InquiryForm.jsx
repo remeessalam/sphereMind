@@ -75,10 +75,13 @@ const InquiryForm = () => {
                 Book an Appointment
               </h6>
             </div>
-            <h2 data-aos="fade-up" className="heading-2 capitalize">
+            <h2 data-aos="fade-up" className="heading-2 capitalize text-black">
               Let’s Collaborate to Innovate
             </h2>
-            <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
+            <p
+              data-aos="fade-up"
+              className="max-w-[35rem] lg:max-w-max text-black"
+            >
               At SPHEREMIND, we’re dedicated to providing technology solutions
               that transform businesses. Contact us today to discuss how our
               expertise can support your business goals.
@@ -87,7 +90,7 @@ const InquiryForm = () => {
           <form
             onSubmit={handleSubmit(handleFormSubmit)}
             data-aos="fade-up"
-            className="flex flex-col gap-1"
+            className="flex flex-col gap-1 text-black"
           >
             <div className="grid sm:grid-cols-2 gap-3">
               <div className="flex flex-col">

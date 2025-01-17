@@ -164,7 +164,7 @@ const AboutUs = () => {
           </div>
           <h2 className="heading mt-2">Our Work Process</h2>
           <div className="grid lg:grid-cols-3 mt-10 gap-6 lg:gap-10">
-            <div className="max-w-[20rem] lg:w-full z-10 relative bg-white/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
+            <div className="max-w-[20rem] lg:w-full z-10 relative bg-secondary/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
               <img
                 loading="lazy"
                 src={process1}
@@ -184,7 +184,7 @@ const AboutUs = () => {
                 alt=""
               />
             </div>
-            <div className="max-w-[20rem] lg:w-full z-10 relative bg-white/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
+            <div className="max-w-[20rem] lg:w-full z-10 relative bg-secondary/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
               <img
                 loading="lazy"
                 src={process2}
@@ -204,7 +204,7 @@ const AboutUs = () => {
                 alt=""
               />
             </div>
-            <div className="max-w-[20rem] lg:w-full z-10 relative bg-white/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
+            <div className="max-w-[20rem] lg:w-full z-10 relative bg-secondary/80 flex flex-col gap-2 items-center text-center justify-center aspect-square rounded-full p-5 border-2 border-primary">
               <img
                 loading="lazy"
                 src={process3}

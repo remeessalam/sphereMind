@@ -43,7 +43,7 @@ const Banner = ({ page }) => {
             {page === "app-development" &&
               "SPHEREMIND - Elevating Your Business with Cutting-Edge App Development"}
           </h1>
-          <p data-aos="fade-right" className="text-sm text-gray-500">
+          <p data-aos="fade-right" className="text-sm text-gray-100">
             {page === "web-development" &&
               "Unlock the full potential of your online presence with our state-of-the-art web development services. At SPHEREMIND, we combine creativity, innovation, and the latest technologies to build custom web solutions that captivate users, boost engagement, and drive business growth. Whether you need a dynamic website, an interactive platform, or a robust e-commerce solution, we deliver tailored digital experiences designed for the future."}
             {page === "app-development" &&

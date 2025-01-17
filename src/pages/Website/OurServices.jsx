@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Website/Header";
 import banner from "../../assets/images/our-services-banner.webp";
-import { services } from "../../data/constant";
+import { ourServices, services } from "../../data/constant";
 import line from "../../assets/images/line.png";
 import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import Footer from "../../components/Footer";
@@ -50,7 +50,7 @@ const OurServices = () => {
             data-aos="fade-up"
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-10 mx-auto max-w-6xl"
           >
-            {services.map((item) => (
+            {ourServices.map((item) => (
               <ServiceItemCard item={item} key={item.id} />
             ))}
           </div>

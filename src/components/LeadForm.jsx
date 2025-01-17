@@ -65,7 +65,7 @@ const LeadForm = () => {
           <h2 className="text-[2rem] md:text-4xl font-semibold mb-3">
             Get in touch with us
           </h2>
-          <p className="text-gray-700 text-sm mb-5">
+          <p className="text-primary text-sm mb-5">
             We are always open to discuss your project, improve your online
             presence
           </p>

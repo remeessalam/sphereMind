@@ -49,12 +49,15 @@ const Services = ({ page }) => {
               >
                 <div className="w-[4rem] h-[4rem] p-3 rounded-full bg-primary/10 flex items-center justify-center">
                   <img
-loading="lazy"                    src={item.icon}
+                    loading="lazy"
+                    src={item.icon}
                     alt="icon"
                     className="w-[3rem] grayscale"
                   />
                 </div>
-                <h6 className="font-medium text-lg">{item.title}</h6>
+                <h6 className="font-medium text-lg text-secondary">
+                  {item.title}
+                </h6>
                 <p className="text-gray-700 text-md">{item.description}</p>
               </div>
             ))}
@@ -67,7 +70,8 @@ loading="lazy"                    src={item.icon}
               >
                 <div className="w-[4rem] h-[4rem] p-3 rounded-full bg-primary/10 flex items-center justify-center">
                   <img
-loading="lazy"                    src={item.icon}
+                    loading="lazy"
+                    src={item.icon}
                     alt="icon"
                     className="w-[3rem] grayscale"
                   />
