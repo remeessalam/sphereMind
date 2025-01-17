@@ -14,7 +14,8 @@ import process3 from "../../assets/images/w-process3.png";
 import arrow from "../../assets/images/icons/Arrow.png";
 import SolveITNeeds from "../../components/Website/SolveITNeeds";
 import Footer from "../../components/Footer";
-
+import founderone from "../../assets/images/founders/founder1.png";
+import foundertwo from "../../assets/images/founders/founder2.jpg";
 const AboutUs = () => {
   return (
     <div className="landing-bg">
@@ -240,6 +241,77 @@ const AboutUs = () => {
           our clients unlock new opportunities and achieve sustainable growth.
         </p>
       </section>
+
+      <div className="container mx-auto p-6 space-y-12">
+        <div className=" p-6 rounded-lg shadow-lg">
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-xl font-semibold text-white">Purpose</h3>
+              <p className="text-white mt-2">
+                To empower businesses with innovative AI, data science, and web
+                solutions, transforming challenges into opportunities and
+                driving sustainable growth for our clients and communities.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-white">Mission</h3>
+              <p className="text-white mt-2">
+                To be a global leader in AI-driven technology solutions,
+                recognized for delivering unparalleled value, fostering
+                innovation, and setting new standards of excellence in the
+                digital landscape.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold text-white">USP</h3>
+              <p className="text-white mt-2">
+                Your success is our priority. We deliver comprehensive AI
+                solutions with 24/7 support and a steadfast dedication to
+                exceeding your expectations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-secondary/10 p-6 rounded-lg shadow-lg">
+          <h2 className="text-3xl font-bold text-center mb-6 text-secondary">
+            Meet Our Founders
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="text-center">
+              <img
+                src={founderone}
+                alt="Sushant Navnath Gadge"
+                className="w-[25rem] h-[30rem] mx-auto  mb-4 object-cover rounded-lg"
+              />
+              <h3 className="text-xl font-bold text-white">
+                Sushant Navnath Gadge
+              </h3>
+              <p className="text-white text-sm">Founder, CEO</p>
+              <p className="text-white mt-2">
+                Sushant is the visionary Founder and CEO of SphereMind
+                Technologies, leading the company’s innovative approach to AI,
+                web development, and Data Science.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img
+                src={foundertwo}
+                alt="Madhuri Karbhal"
+                className="w-[25rem] h-[30rem] mx-auto  mb-4 object-cover rounded-lg"
+              />
+              <h3 className="text-xl font-bold text-white">Madhuri Karbhal</h3>
+              <p className="text-white text-sm">Co-Founder, COO</p>
+              <p className="text-white mt-2">
+                Madhuri, Co-Founder and COO, oversees the company's operations
+                and ensures the efficient delivery of transformative technology
+                solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <SolveITNeeds />
       <Footer />
     </div>
