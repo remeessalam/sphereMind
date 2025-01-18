@@ -265,7 +265,12 @@ export const companyDetails = {
   whatsapp: "8830004362",
   location:
     "A Build 1103 shreeji Sharan soc Azad nagar charholi bk haveli pune 412105",
-  email: "abc@xyz.com",
+  email: "spheremindtechnologies@gmail.com",
+  instagram:
+    "https://www.instagram.com/spheremind_technologies?igsh=MThmN2s1emJoZDY1dg==",
+  linkedin: "https://www.linkedin.com/company/spheremind-technologies/",
+  facebook: "https://www.facebook.com/profile.php?id=61572212549680&sk=about",
+  x: "https://x.com/Spheremindtech",
 };
 
 export const landingPageNavLinks = [

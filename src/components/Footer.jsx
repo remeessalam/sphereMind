@@ -12,6 +12,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { companyDetails, ourServices } from "../data/constant";
+import { RiTwitterXFill } from "react-icons/ri";
 
 const Footer = () => {
   return (
@@ -77,17 +78,29 @@ const Footer = () => {
               </li>
             </ul>
             <div className="flex items-center gap-4">
-              <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
+              <Link
+                to={companyDetails.facebook}
+                className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300"
+              >
                 <FaFacebookF />
               </Link>
-              <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
+              <Link
+                to={companyDetails.instagram}
+                className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300"
+              >
                 <FaInstagram />
               </Link>
-              <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
+              <Link
+                to={companyDetails.linkedin}
+                className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300"
+              >
                 <FaLinkedin />
               </Link>
-              <Link className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300">
-                <FaTwitter />
+              <Link
+                to={companyDetails.x}
+                className="bg-primary/10 text-primary/70 w-[2.5rem] h-[2.5rem] rounded-full flex justify-center items-center text-2xl hover:bg-gradient-to-r hover:text-primary hover:-translate-y-1 transition-all duration-300"
+              >
+                <RiTwitterXFill />
               </Link>
             </div>
           </div>
