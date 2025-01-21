@@ -19,7 +19,7 @@ const Header = () => {
             alt="logo"
             width="auto"
             height="auto"
-            className="h-[5rem] md:h-[6.5rem] scale-125  object-contain overflow-hidden"
+            className="h-[5rem] md:h-[6.5rem]  object-contain overflow-hidden"
           />
         </Link>
         <div className="hidden md:flex items-center gap-10">
