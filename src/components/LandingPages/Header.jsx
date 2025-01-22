@@ -10,7 +10,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   return (
     <div className="fixed  top-0 z-50 w-full bg-black/50 backdrop-blur-sm text-primary">
-      <div className="flex wrapper items-center gap-8 justify-between overflow-hidden">
+      <div className="flex max-w-[95%] mx-auto px-4 sm:px-6 items-center gap-8 justify-between overflow-hidden">
         <ReactScrollLink
           to="banner"
           className="cursor-pointer"
@@ -23,7 +23,7 @@ const Header = () => {
             alt="logo"
             width="auto"
             height="auto"
-            className="h-[5rem] md:h-[6.5rem]   object-contain overflow-hidden"
+            className="h-[5rem] md:h-[6.5rem]  scale-125 object-contain overflow-hidden"
           />
         </ReactScrollLink>
         <div className="hidden md:flex items-center gap-10">
