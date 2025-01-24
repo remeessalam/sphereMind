@@ -79,7 +79,7 @@ const LeadForm = () => {
               </label>
               <input
                 type="text"
-                className="border outline-none border-primary rounded-sm p-2"
+                className="border text-black outline-none border-primary rounded-sm p-2"
                 placeholder="Full Name"
                 {...register("name", {
                   required: "Full name is required",
@@ -100,7 +100,7 @@ const LeadForm = () => {
               </label>
               <input
                 type="email"
-                className="border outline-none border-primary rounded-sm p-2"
+                className="border text-black outline-none border-primary rounded-sm p-2"
                 placeholder="Email Address"
                 {...register("email", {
                   required: "Email is required",
@@ -118,7 +118,7 @@ const LeadForm = () => {
               </label>
               <input
                 type="text"
-                className="border outline-none border-primary rounded-sm p-2"
+                className="border outline-none text-black border-primary rounded-sm p-2"
                 placeholder="Enter Subject"
                 {...register("subject", {
                   required: "Subject is required",
@@ -139,7 +139,7 @@ const LeadForm = () => {
               </label>
               <textarea
                 type="text"
-                className="border outline-none border-primary rounded-sm p-2"
+                className="border outline-none text-black border-primary rounded-sm p-2"
                 placeholder="Enter Message"
                 rows="4"
                 {...register("message", {
