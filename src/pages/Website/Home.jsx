@@ -57,7 +57,7 @@ const Home = () => {
           name="keywords"
           content="AI solutions, Machine Learning, Blockchain, Custom Software Development, Technology Consulting"
         />
-        <link rel="canonical" href="https://www.aiwebx.com" />
+        <link rel="canonical" href="https://www.spheremind.com" />
 
         {/* Open Graph Tags */}
         <meta
@@ -69,7 +69,7 @@ const Home = () => {
           content="Transform your business with cutting-edge AI, Machine Learning, and Blockchain solutions from SPHEREMIND."
         />
         <meta property="og:image" content={aboutImg} />
-        <meta property="og:url" content="https://www.aiwebx.in" />
+        <meta property="og:url" content="https://www.spheremind.in" />
 
         {/* Twitter Card Tags */}
         <meta name="twitter:card" content="summary_large_image" />

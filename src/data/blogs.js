@@ -2,7 +2,7 @@ export const blogs = [
   {
     id: 1,
     title: "How Custom Machine Learning Solutions Can Transform Your Business",
-    image: require("../assets/images/blogs/1.png"),
+    image: require("../assets/images/blogs/1.jpg"),
     html: `
   <h2 class="text-lg font-semibold mb-2">
     What Makes AI and Machine Learning Powerful
@@ -191,7 +191,7 @@ export const blogs = [
       <strong>A hosting service:</strong> This is like renting a space for your site on the internet.
     </li>
     <li>
-      <strong>A domain name:</strong> This is your web address, like www.aiwebx.in.
+      <strong>A domain name:</strong> This is your web address, like www.spheremind.in.
     </li>
   </ul>
   <p class="hyphen-auto mb-4">
@@ -219,7 +219,7 @@ export const blogs = [
 export const ourblogs = [
   {
     id: 1,
-    image: require("../assets/images/blogs/1.png"),
+    image: require("../assets/images/blogs/1.jpg"),
     blogPath: "blog-1",
     heading:
       "How SphereMind Technologies Can Help Your Business in the Data Science and Analytics Space",
@@ -263,7 +263,7 @@ export const ourblogs = [
   },
   {
     id: 1,
-    image: require("../assets/images/blogs/1.png"),
+    image: require("../assets/images/blogs/1.jpg"),
     blogPath: "blog-2",
     heading:
       "Unlock the Power of IoT with SphereMind Technologies: Transform Your Business",
@@ -315,7 +315,7 @@ export const ourblogs = [
   },
   {
     id: 3,
-    image: require("../assets/images/blogs/1.png"),
+    image: require("../assets/images/blogs/1.jpg"),
     blogPath: "blog-3",
     heading: "How AI Calling Can Transform and Customize Your Business",
     introduction: `Have you ever wished your business could respond to customers instantly, no matter the time of day? Or that you could provide tailored solutions to each customer without needing a massive team? AI Calling is here to revolutionize your business.`,
@@ -358,7 +358,7 @@ export const ourblogs = [
   },
   {
     id: 4,
-    image: require("../assets/images/blogs/1.png"),
+    image: require("../assets/images/blogs/1.jpg"),
     blogPath: "blog-4",
     heading:
       "About SphereMind Technologies: Our Story, Vision, and What We Stand For",

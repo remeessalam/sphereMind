@@ -42,7 +42,7 @@ const BlogDetails = () => {
                 data-aos="fade-up"
                 className="flex justify-between items-center font-light mt-[0.8rem]"
               >
-                <div className="rounded-2xl bg-primary text-white font-medium px-3 py-1 text-sm w-fit">
+                <div className="rounded-2xl bg-primary text-black font-medium px-3 py-1 text-sm w-fit">
                   By Admin
                 </div>
               </div>
